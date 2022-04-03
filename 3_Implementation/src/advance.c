@@ -2,39 +2,48 @@
 #include "../inc/advance.h"
 #include "../unity/unity.h"
 
-float sqroot(float a){
+//Square root function
+float sqroot_res(int a){
     return (sqrt(a));
 }
 
-float power(float a, float b){
+// power function
+int power_res(int a, int b){
     return (pow(a, b));
 }
 
-float logarithm(float a){
+// log function
+float logarithm_res(int a){
     return (log10(a));
 }
 
-float sin_res(float a){
+// sine function
+float sin_res(int a){
     return (sin(a * 3.14 / 180));
 }
 
-float cos_res(float a){
+// cos function
+float cos_res(int a){
     return (cos(a * 3.14 / 180));
 }
 
-float tan_res(float a){
+// tan function
+float tan_res(int a){
     return (tan(a * 3.14 / 180));
 }
 
-float cot_res(float a){
+// cot function
+float cot_res(int a){
     return (1 / tan(a * 3.14 / 180));
 }
 
-float sec_res(float a){
+// sec function
+float sec_res(int a){
     return (1 / cos(a * 3.14 / 180));
 }
 
-float cosec_res(float a){
+// cosec function
+float cosec_res(int a){
     return (1 / (sin(a * 3.14 / 180)));
 }
 

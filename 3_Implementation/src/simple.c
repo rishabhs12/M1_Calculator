@@ -2,19 +2,26 @@
 #include "../inc/simple.h"
 #include "../unity/unity.h"
 
-float add(float a, float b)
+// addition function
+int add_res(int a, int b)
 {
     return (a + b);
 }
-float sub(float a, float b)
+
+// subtraction function
+int sub_res(int a, int b)
 {
     return (a - b);
 }
-float mul(float a, float b)
+
+// multiplication function
+int mul_res(int a, int b)
 {
     return (a * b);
 }
-float div(float a, float b)
+
+// division function
+float div_res(int a, int b)
 {
     return (a / b);
 }

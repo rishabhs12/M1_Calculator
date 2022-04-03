@@ -4,8 +4,8 @@
 #include "../inc/advance.h"
 #include "../unity/unity.h"
 
-int number;
-float a, b, result;
+int number, a, b, result1;
+float result2;
 
 void calc(void);
 
@@ -32,24 +32,24 @@ void calc(void){
     else{
         if(number >=1 && number<= 4 || number==6){
             printf("Enter two numbers: ");
-            scanf("%f", &a);
-            scanf("%f", &b);
+            scanf("%d", &a);
+            scanf("%d", &b);
             switch (number){
-
+                // switch cases for two arguments
                 case 1:
-                    result = add(a , b);
+                    result1 = add_res(a , b);
                     break;
                 case 2:
-                    result = sub(a, b);
+                    result1 = sub_res(a, b);
                     break;
                 case 3:
-                    result = mul(a, b);
+                    result1 = mul_res(a, b);
                     break;
                 case 4:
-                    result = div(a, b);
+                    result2 = div_res(a, b);
                     break;
                 case 6:
-                    result = power(a, b);
+                    result1 = power_res(a, b);
                     break;
                 
         }
@@ -57,37 +57,37 @@ void calc(void){
         }
         else{
             printf("Enter a numbers: ");
-            scanf("%f", &a);
+            scanf("%d", &a);
             switch (number){
-
+                // switch cases for 1 argument
                 case 5:
-                    result = sqroot(a);
+                    result2 = sqroot_res(a);
                     break;
                 case 7:
-                    result = logarithm(a);
+                    result2 = logarithm_res(a);
                     break;
                 case 8:
-                    result = sin_res(a);
+                    result2 = sin_res(a);
                     break;
                 case 9:
-                    result = cos_res(a);
+                    result2 = cos_res(a);
                     break;
                 case 10:
-                    result = tan_res(a);
+                    result2 = tan_res(a);
                     break;
                 case 11:
-                    result = cot_res(a);
+                    result2 = cot_res(a);
                     break;
                 case 12:
-                    result = sec_res(a);
+                    result2 = sec_res(a);
                     break;
                 case 13:
-                    result = cosec_res(a);
+                    result2 = cosec_res(a);
                     break;
         }
         }
         
     }
-    
-    //printf("%.2f",result);
+    //printf("%d",result2);
+    //printf("%.2f",result2);
 }
