@@ -1,3 +1,3 @@
-@mainpage Calculator Application by "Rishabh Singh"
+@mainpage Calculator Application by "RishabhSingh"
 	@subpage simple.h
     @subpage advance.h
