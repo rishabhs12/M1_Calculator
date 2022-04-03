@@ -1,5 +1,0 @@
-make.exe --dry-run --always-make --keep-going --print-directory
-make.exe: Entering directory `c:/Users/Rishabh Singh/Desktop/C/M1_Calculator/3_Implementation'
-gcc ./src/main.c ./src/simple.c ./src/advance.c ./test/test.c ./unity/unity.c
-make.exe: Leaving directory `c:/Users/Rishabh Singh/Desktop/C/M1_Calculator/3_Implementation'
- 
